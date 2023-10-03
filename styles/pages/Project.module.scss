@@ -1,0 +1,68 @@
+.container {
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+
+  .heading {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #4d5bce;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 7%;
+
+    .project {
+      color: #fea55f;
+      margin: 1.5rem;
+
+      .projectCard {
+        background-color: #011221;
+        border: 1px solid #1e2d3d;
+        height: 15rem;
+        width: 20rem;
+        margin: 0.5rem;
+        border-radius: 10px;
+
+        .projectImage {
+          height: 40%;
+          background-color: #4d5bce;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          overflow-y: hidden;
+        }
+        .projectTitle {
+          height: 60%;
+          color: #607b96;
+          margin-bottom: 1rem;
+          padding: 1rem 2rem;
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+
+          .projectButton {
+            background-color: #1c2b3a;
+            border-radius: 10px;
+            margin-top: 1rem;
+            font-size: 0.8rem;
+            width: fit-content;
+            padding: 0.5rem 1rem;
+            color: #ffffff;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+              background-color: #011627;
+              color: #fea55f;
+              border: 1px solid #fea55f;
+            }
+          }
+        }
+      }
+    }
+  }
+}
